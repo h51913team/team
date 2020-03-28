@@ -1,0 +1,16 @@
+#components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.logo {
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+}
