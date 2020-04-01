@@ -4,6 +4,7 @@ import Admin from './page/Admin'
 import Login from './page/Login'
 import Home from './page/Home'
 import City from './page/City'
+// import City from './components/Table'
 import Order from './page/Order'
 import User from './page/User'
 import Permission from './page/Permission'
@@ -12,7 +13,8 @@ import Permission from './page/Permission'
 function App() {
   return (
     <HashRouter>
-      <Redirect exact from='/' to='/login' />
+      {/* <Redirect exact from='/' to='/login' /> */}
+      <Redirect exact from='/' to='/admin' />
       {/* 登录 */}
       <Route path='/login' component={Login} />
       {/* admin */}
